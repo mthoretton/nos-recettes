@@ -1,9 +1,9 @@
 {
-    "title": "Our recipes",
-    "author": "Alice & Bob",
-    "description": "This is a Rublog demo, using 'mes-recettes' template.",
+    "title": "Nos recettes",
+    "author": "Mathieu & Maria",
+    "description": "Nos recettes de cuisine, testées et approuvées !",
     "template": "mes-recettes",
     "dev_port": 4000,
     "favicon": "static/favicon.png",
-    "url_prod": "http://rublog.github.io/rublog"
+    "url_prod": "http://mthoretton.github.io/nos-recettes"
 }

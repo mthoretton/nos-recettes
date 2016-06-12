@@ -1,0 +1,64 @@
+<meta>
+{
+  "template": "recipe",
+  "tag_list": [
+    "ingredients",
+    "recipe"
+  ],
+  "name": "Bun",
+  "categories": [
+    "Base",
+    "Pâte"
+  ],
+  "preparation_time": "10",
+  "cooking_time": "70",
+  "difficulty": "1",
+  "servings": "2",
+  "price": "1"
+}
+</meta>
+
+<ingredients>
+
+### Ingrédients
+---
+
+- 200g de T55
+- 80ml d'eau tiède
+- 7g de levure fraîche de boulanger
+- 25g de beurre fondu
+- 15g de sucre
+- 2g de sel
+- 1 oeuf
+- 1 oeuf battu et 15ml de lait (dorure)
+- sésame ou autres graînes (facultatif)
+
+</ingredients>
+
+<recipe>
+
+
+1. Délayer la levure dans l'eau tiède avec une fourchette. Laisser reposer 1 minute.  
+
+0. Verser dans une cuve (ou saladier) la farine, le sel, le sucre, le beurre, l'oeuf et l'eau avec la levure. Mélanger (30s au robot avec pétrin).  
+
+0. Retirer la pâte de la cuve et la déposer dans un saladier farinée. Recouvrir d'un film plastique (voire torchon humide).  
+Laisser reposer 30 minutes.  
+
+0. Après cette première levée, frapper la pâte pour chasser le gaz. Déposer la sur un plan de travail fariné.  
+Diviser la pâte en deux à l'aide d'un couteau aiguisé. Former des boules bien lisses (un peu aplaties, de la forme d'un burger).  
+
+0. Recouvrir la grille du four de papier sulfurisé. Déposer les boules et les couvrir d'un torchon humide.  
+Laisser reposer 30 minutes.  
+
+0. Préchauffer le four à 220C (th7).  
+
+0. Casser un oeuf et le méanger avec le lait. Badigeonner les pains pour qu'ils soient bien dorés.  
+
+0. Ajouter le sésame.  
+
+0. Laisser cuire 10 minutes jusqu'à ce qu'ils soient bien dorés.  
+
+0. Laisser refroidir.  
+
+</recipe>
