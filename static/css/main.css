@@ -1,0 +1,80 @@
+.containerRecipe {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+.ingredientsContainer {
+    flex: 1 1 40%;
+    overflow: auto;
+    transition: width 0.7s ease-out;
+}
+.stepsContainer {
+    flex: 1 1 60%;  
+    overflow: auto;
+    transition: width 0.7s ease-out;
+}
+.rowFlex {
+    flex-direction: row;
+}
+.flexItem {
+    flex: 1 1 auto;
+}
+.lastItem {
+    flex: 0 0 auto;
+}
+.metaWF {
+    display: flex;
+    align-items: center;
+}
+.whiteframe {
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.14),0 6px 10px 0 rgba(0,0,0,.098),0 1px 18px 0 rgba(0,0,0,.084);
+}
+.padding {
+    padding: 15px;
+}
+.margin {
+    margin: 15px;
+}
+.titleBox {
+  background-color: rgba(237, 237, 237, 0.52);
+  height: 80px;
+  border-bottom: #D40101;
+  border-bottom-style: solid;
+  margin-bottom: 15px;
+}
+.title {
+    font-size: 35px;
+  font-family: fantasy;
+}
+.author {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: large;
+  color: grey;
+  font-style: italic;
+}
+
+.searchable tbody tr:hover {
+  cursor: pointer;
+}
+
+#home-icon {
+  margin-right: 20px;
+  color: #D40101;
+}
+
+.md-area {
+  text-align: justify;
+  font-size: larger;
+}
+
+.md-area img {
+  max-width: 100%;
+}
