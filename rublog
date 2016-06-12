@@ -20,7 +20,6 @@ class Rublog
     @s = self.load_settings()
     @s['pages_meta'] = []
     @s['url'] = '/'
-    FileUtils.mkdir_p (OUTPUT_PATH)
   end
 
   def run(args)
@@ -71,6 +70,7 @@ class Rublog
   end
 
   def build
+    FileUtils.mkdir_p (OUTPUT_PATH)
     # Generate pages
     page_list = Dir["#{PAGES_PATH}/*.#{EXTENSION}"]
     page_list.map{ |page| self.process_page(page) }
@@ -85,6 +85,7 @@ class Rublog
 
   def publish
     @s['url'] = @s['url_prod']
+    FileUtils.rm_rf(OUTPUT_PATH)
     self.build()
     script_path = File.expand_path(File.dirname(__FILE__))
     puts `
@@ -111,6 +112,7 @@ class Rublog
 #--------------------------------------------------------------------- methods -
 
   def process_page(path)
+    FileUtils.mkdir_p (OUTPUT_PATH)
     page = File.read(path).to_str
     page_settings = JSON.parse(get_tag_content(page,'meta'))
 

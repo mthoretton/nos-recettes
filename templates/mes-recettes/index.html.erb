@@ -63,7 +63,7 @@
               <i class="fa fa-star" aria-hidden="true"></i>
             <% end %>
             </td>
-            <td class="table-cat"><%= page_settings['categories'].join(" | ") %></td>
+            <td class="table-cat"><%= page_settings['categories'].map(&:capitalize).sort.join(" | ") %></td>
           </tr>
           <% end %>
         </tbody>
