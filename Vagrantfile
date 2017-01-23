@@ -7,6 +7,8 @@ Vagrant.configure(2) do |config|
 
   config.vm.hostname = V_NAME
 
+  config.vm.network "forwarded_port", guest: 4000, host: 4000
+
   config.vm.provision "shell", inline: V_PROVISION
 
   config.vm.provider "virtualbox" do |v|

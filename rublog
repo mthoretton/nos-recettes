@@ -54,7 +54,7 @@ class Rublog
       raise "Subtemplate #{page_template} not found in #{TEMPLATE_PATH}/#{@s['template']}"
     end
     template_settings = JSON.parse(get_tag_content(template,'meta'))
-    
+
     template_settings.each do |tag|
       if tag[1].class == Hash && tag[1].key?('required') && tag[1]['required'] == "true"
         template_settings[tag[0]] = [(print "#{tag[0]} (#{tag[1]['desc']}) : "), STDIN.gets.rstrip][1]

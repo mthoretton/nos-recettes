@@ -1,0 +1,37 @@
+<meta>
+{
+  "template": "recipe",
+  "tag_list": [
+    "ingredients",
+    "recipe"
+  ],
+  "name": "Pâte feuilletée",
+  "categories": [
+    "pâte"
+  ],
+  "preparation_time": "30",
+  "cooking_time": "60",
+  "difficulty": "3",
+  "servings": "1",
+  "price": "1"
+}
+</meta>
+
+<ingredients>
+
+* 200g de farine de T45
+* 40g de beurre pommade
+* 105ml d'eau
+* 160g de beurre froid
+
+</ingredients>
+
+<recipe>
+
+* Mélanger la farine, les 50g de beurre et l'eau au robot avec un pétrin.
+* Sortir la pâte quand elle forme une boule.
+* L'envelopper dans du film plastique, l'aplatir et laisser reposer 1h au frais.
+
+* Retirer la pâte du film et la mettre sur une surface farinée.
+
+</recipe>

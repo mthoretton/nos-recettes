@@ -1,0 +1,71 @@
+<meta>
+{
+  "template": "recipe",
+  "tag_list": [
+    "ingredients",
+    "recipe"
+  ],
+  "name": "Tarte aux oignons",
+  "categories": [
+
+  ],
+  "preparation_time": "120",
+  "cooking_time": "30",
+  "difficulty": "2",
+  "servings": "6",
+  "price": "1"
+}
+</meta>
+
+<ingredients>
+
+### Pâte
+* 200g de farine
+* 100g de beurre
+* 64ml d'eau froide
+* 1 pincée de sel
+
+### L'appareil à tarte
+* 800g d'oignons rouges
+* 1 càs d'hule d'olive
+
+#### Béchamel
+
+* 50 g de farine
+* 50 g de beurre
+* 60 cl de lait
+* sel
+* poivre
+* muscade râpée
+
+</ingredients>
+
+<recipe>
+
+### Pâte
+---
+
+Mélanger la farine, le beurre, l'eau et le sel dans un saladier et méglanger au robot. Former un boule de pâte. L'envelopper dans un film alimentaire, l'aplâtir et la laisser reposer au frais pendant une heure.
+
+Préchauffer le four.
+
+Sortir la pâte, l'applatir et la mouler. Faire cuire à 180° pendant une 20aine de minutes. Poser du papier de cuisson avec des pâtes dans le fond pour éviter que le fond de pâte gonfle.  
+
+### L'appareil à tarte
+---
+Couper les oignons en fines tranches et les faire cuire avec l'huile d'olive.  
+Saler poivrer en cours de cuisson.  
+Étaler les oignons sur du sopalin pour les sécher.  
+
+#### Béchamel
+
+Faites fondre le beurre dans une casserole à fond épais.  
+Ajoutez la farine et remuez avec une cuillère de bois sans laisser colorer. La farine doit juste épaissir.  
+Versez le lait progressivement, sans cesser de remuer, jusqu'à ce que la sauce épaississe.  
+Assaisonnez de sel, poivre et muscade râpée.  
+
+### foo
+
+Verser la béchamel dans la poile et mélanger avec les oignons. Sortir la pâte et verser l'appareil. Remettre au four pendant XX minutes.  
+
+</recipe>
